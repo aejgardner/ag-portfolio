@@ -27,7 +27,7 @@ body {
   cursor: pointer;
 }
 
-.projects__card__link-orange, .projects__card__link-green, .projects__card__link-blue {
+.contact__backToTopBtn, .projects__card__link-orange, .projects__card__link-green, .projects__card__link-blue {
   padding: 0.3rem 0.6rem;
   font-size: 1.1rem;
   border-radius: 5px;
@@ -40,7 +40,7 @@ body {
   list-style: none;
 }
 
-.about__h2, .skills__h2, .projects__h2 {
+.contact__h2, .about__h2, .skills__h2, .projects__h2 {
   font-size: 4rem;
   text-align: center;
   font-family: "Patua One", cursive;
@@ -293,6 +293,49 @@ body {
   color: white;
   font-size: 1.5rem;
   text-indent: 1rem;
+}
+
+.contact {
+  background-color: var(--main-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 1rem;
+}
+.contact__h2 {
+  margin: 0 0 1rem;
+  color: var(--cream);
+}
+.contact__info {
+  text-align: center;
+  color: var(--cream);
+  font-size: 1.2rem;
+}
+.contact__info > * {
+  margin-bottom: 1rem;
+}
+.contact__info > p > a {
+  text-decoration: none;
+  color: var(--cream);
+  transition: color 0.1s linear;
+}
+.contact__info > p > a:hover {
+  color: var(--main-orange);
+}
+.contact__backToTopBtn {
+  background: none;
+  border: 2px solid var(--cream);
+  color: var(--cream);
+  margin-top: 1rem;
+}
+.contact__backToTopBtn:hover {
+  border-color: var(--main-orange);
+  color: var(--main-orange);
+}
+.contact__copyright {
+  color: var(--main-orange);
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */

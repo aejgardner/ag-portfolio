@@ -1,0 +1,52 @@
+.contact {
+    background-color: var(--main-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem;
+
+    &__h2 {
+        @extend %heading;
+        margin: 0 0 1rem;
+        color: var(--cream);
+    }
+
+    &__info {
+        text-align: center;
+        color: var(--cream);
+        font-size: 1.2rem;
+    }
+
+    &__info > * {
+        margin-bottom: 1rem;
+    }
+
+    &__info > p > a {
+        text-decoration: none;
+        color: var(--cream);
+        transition: color 0.1s linear;
+    }
+
+    &__info > p > a:hover {
+        color: var(--main-orange);
+    }
+
+    &__backToTopBtn {
+        @extend %button;
+        background: none;
+        border: 2px solid var(--cream);
+        color: var(--cream);
+        margin-top: 1rem;
+    }
+
+    &__backToTopBtn:hover {
+        border-color: var(--main-orange);
+        color: var(--main-orange);
+    }
+
+    &__copyright {
+        color: var(--main-orange);
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
