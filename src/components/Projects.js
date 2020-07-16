@@ -10,6 +10,7 @@ const Projects = () => {
             <h2 class="projects__h2">Projects</h2>
             <div class="projects__container">
                 <ProjectsCard
+                    id="0"
                     imgSrc={football}
                     altText="Picture of Team Generator app"
                     heading="Team Generator"
@@ -21,6 +22,7 @@ const Projects = () => {
                     repoHref="https://github.com/aejgardner/frontend-ui-five-aside"
                 />
                 <ProjectsCard 
+                id="1"
                 imgSrc={olympics}
                 altText="Picture of Lockdown Olympics app"
                 heading="Lockdown Olympics"
@@ -33,6 +35,7 @@ const Projects = () => {
                 repoHref="https://github.com/aejgardner/lockdown-olympics"
                 />
                 <ProjectsCard 
+                id="2"
                 imgSrc={pingr}
                 altText="Picture of PINGR app"
                 heading="PINGR"

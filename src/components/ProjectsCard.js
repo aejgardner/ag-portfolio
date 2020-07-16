@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const ProjectsCard = ({ imgSrc, altText, heading, technologies, description, online, appHref, repoHref }) => {
+const ProjectsCard = ({ imgSrc, altText, heading, technologies, description, online, appHref, repoHref, id }) => {
     return (
         <article class="projects__card">
             <img class="projects__card__img" src={imgSrc} alt={altText} />
@@ -17,9 +18,16 @@ const ProjectsCard = ({ imgSrc, altText, heading, technologies, description, onl
                 <a class="projects__card__link-green"
                     href={repoHref} target="_blank" rel="noopener noreferrer">GitHub
                         </a>
-                <a class="projects__card__link-orange"
-                    href={repoHref} target="_blank" rel="noopener noreferrer">Process
-                        </a>
+                <Link
+                    to={{
+                        pathname: '/case-study',
+                        state: {
+                            id: id
+                        }
+                    }}
+                    class="projects__card__link-orange"
+                >Process
+                </Link>
             </div>
         </article>
     );
