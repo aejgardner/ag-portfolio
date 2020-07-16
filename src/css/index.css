@@ -19,7 +19,7 @@ body {
   font-family: "Ubuntu";
 }
 
-.projects__card__link-green, .projects__card__link-blue, .header__social__link, .header__nav__link {
+.projects__card__link-orange, .projects__card__link-green, .projects__card__link-blue, .header__social__link, .header__nav__link {
   text-decoration: none;
   color: #fff;
   padding: 0.3rem 1.2rem;
@@ -27,7 +27,7 @@ body {
   cursor: pointer;
 }
 
-.projects__card__link-green, .projects__card__link-blue {
+.projects__card__link-orange, .projects__card__link-green, .projects__card__link-blue {
   padding: 0.3rem 0.6rem;
   font-size: 1.1rem;
   border-radius: 5px;
@@ -214,6 +214,14 @@ body {
 }
 .projects__card__link-green:hover {
   background-color: var(--main-green);
+  color: white;
+}
+.projects__card__link-orange {
+  border: 2px solid var(--main-orange);
+  color: var(--main-orange);
+}
+.projects__card__link-orange:hover {
+  background-color: var(--main-orange);
   color: white;
 }
 

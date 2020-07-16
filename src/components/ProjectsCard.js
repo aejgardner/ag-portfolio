@@ -13,14 +13,16 @@ const ProjectsCard = ({ imgSrc, altText, heading, technologies, description, onl
                 <div class="projects__card__links">
                     {online ?
                         <a target="blank" rel="noopener noreferrer" class="projects__card__link-blue"
-                            href={appHref}>View
-                        App</a>
+                            href={appHref}>App</a>
                         :
                         null
                     }
                     <a class="projects__card__link-green"
-                        href={repoHref} target="_blank" rel="noopener noreferrer">View on
-                            GitHub</a>
+                        href={repoHref} target="_blank" rel="noopener noreferrer">GitHub
+                        </a>
+                    <a class="projects__card__link-orange"
+                        href={repoHref} target="_blank" rel="noopener noreferrer">Process
+                        </a>
                 </div>
             </div>
         </article>

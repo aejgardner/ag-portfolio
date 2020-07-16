@@ -91,4 +91,16 @@
         background-color: var(--main-green);
         color: white;
     }
+
+    &__card__link-orange {
+        @extend %a;
+        @extend %button;
+        border: 2px solid var(--main-orange);
+        color: var(--main-orange);
+    }
+
+    &__card__link-orange:hover {
+        background-color: var(--main-orange);
+        color: white;
+    }
 }
