@@ -4,6 +4,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Projects from './Projects';
 import Skills from './Skills';
+import About from './About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Projects />
       <Skills />
+      <About />
     </>
   );
 }
