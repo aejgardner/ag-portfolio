@@ -3,7 +3,13 @@ import Particles from 'react-particles-js';
 
 const ParticlesJs = () => {
     return (
-        <Particles
+        <Particles className="particles"
+            // style={{
+            //     position: "fixed",
+            //     width: "100%",
+            //     zIndex: "-1",
+            //     background: "linear-gradient(0.25turn, #08659b, #ebf8e1, #f69d3c)"
+            // }}
             params={{
                 particles: {
                     number: {

@@ -1,5 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+:root {
+  --main-orange: #E9AB3C;
+  --main-green: #0F770F;
+  --main-blue: #08659b;
+  --cream: rgb(250, 235, 208);
+  --emblem-blue: #b4ddff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: white;
+  font-family: "Ubuntu";
+}
+
+.particles {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(0.25turn, #08659b, #ebf8e1, #f69d3c);
 }
 
 /*# sourceMappingURL=index.css.map */
