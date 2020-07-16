@@ -1,0 +1,60 @@
+.header {
+    z-index: 5;
+    padding: 1.6rem 0;
+    background-color: rgba(15, 119, 15, 0.6);
+
+    &__container {
+        @extend %container;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__h3 {
+        font-size: 2.2rem;
+        color: white;
+        background: linear-gradient(135deg, #a1d5ff 0%,#ffffff 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+
+    &__nav__ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__li {
+        @extend %li;
+    }
+
+    &__nav__link {
+        @extend %a;
+        border: 2px solid transparent;
+        transition: color .1s linear;
+    }
+
+    &__socials__ul {
+        display: flex;
+    }
+
+    &__social__link {
+        @extend %a;
+        padding-left: 0.5rem;
+    }
+
+    &__fa {
+        font-size: 2.2rem;
+        transition: color .1s linear;
+    }
+
+    &__fa:hover {
+        color: var(--main-blue)
+    }
+
+    &__nav__link:hover {
+        color: var(--main-orange)
+    }
+}

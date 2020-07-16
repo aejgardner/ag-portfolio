@@ -1,9 +1,13 @@
 import React from 'react';
 import ParticlesJs from './Particles';
+import Header from './Header';
 
 function App() {
   return (
-    <ParticlesJs />
+    <>
+      <ParticlesJs />
+      <Header />
+    </>
   );
 }
 

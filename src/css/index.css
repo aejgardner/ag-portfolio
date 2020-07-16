@@ -19,11 +19,72 @@ body {
   font-family: "Ubuntu";
 }
 
+.header__social__link, .header__nav__link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.3rem 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.header__li {
+  list-style: none;
+}
+
+.header__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .particles {
   position: fixed;
   width: 100%;
   z-index: -1;
   background: linear-gradient(0.25turn, #08659b, #ebf8e1, #f69d3c);
+}
+
+.header {
+  z-index: 5;
+  padding: 1.6rem 0;
+  background-color: rgba(15, 119, 15, 0.6);
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__h3 {
+  font-size: 2.2rem;
+  color: white;
+  background: linear-gradient(135deg, #a1d5ff 0%, #ffffff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.header__nav__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav__link {
+  border: 2px solid transparent;
+  transition: color 0.1s linear;
+}
+.header__socials__ul {
+  display: flex;
+}
+.header__social__link {
+  padding-left: 0.5rem;
+}
+.header__fa {
+  font-size: 2.2rem;
+  transition: color 0.1s linear;
+}
+.header__fa:hover {
+  color: var(--main-blue);
+}
+.header__nav__link:hover {
+  color: var(--main-orange);
 }
 
 /*# sourceMappingURL=index.css.map */
