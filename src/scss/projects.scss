@@ -1,0 +1,94 @@
+.projects {
+    background-color: var(--main-blue);
+    padding: 1rem 0 3rem;
+
+    &__h2 {
+        @extend %heading;
+        margin: 0 0 2.2rem;
+        color: var(--cream);
+    }
+
+    &__container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__card {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border-radius: 10px;
+        box-shadow:  15px 5px 27px #188acc, -15px -15px 27px var(--main-blue);
+    }
+
+    &__card__img {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 300px;
+        object-fit: contain;
+        background-color: rgb(221, 221, 221);
+    }
+
+    &__card__h2 {
+        width: 90%;
+        padding: 0.6rem;
+        padding-bottom: 0;
+        color: var(--main-green);
+        font-style: italic;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    &__card__h3 {
+        margin-top: 0.7rem;
+        font-size: 2rem;
+        font-family: 'Patua One', cursive;
+        color: var(--main-blue);
+    }
+
+    &__card__text {
+        padding: 0.5rem 1.1rem 1.1rem;
+    }
+    
+    &__card__text > p {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        color: var(--main-green);
+    }
+
+    &__card__links {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+
+    &__card__link-blue {
+        @extend %a;
+        @extend %button;
+        border: 2px solid var(--main-blue);
+        color: var(--main-blue);
+    }
+
+    &__card__link-blue:hover {
+        background-color: var(--main-blue);
+        color: white;
+    }
+
+    &__card__link-green {
+        @extend %a;
+        @extend %button;
+        border: 2px solid var(--main-green);
+        color: var(--main-green);
+    }
+
+    &__card__link-green:hover {
+        background-color: var(--main-green);
+        color: white;
+    }
+}
