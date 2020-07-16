@@ -43,7 +43,6 @@ const Projects = () => {
                 online={false}
                 repoHref="https://github.com/aejgardner/ping-pong"
                 />
-                />
             </div>
         </section>
     );
