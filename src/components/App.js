@@ -3,6 +3,7 @@ import ParticlesJs from './Particles';
 import Header from './Header';
 import Hero from './Hero';
 import Projects from './Projects';
+import Skills from './Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Projects />
+      <Skills />
     </>
   );
 }
