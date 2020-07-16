@@ -40,7 +40,7 @@ body {
   list-style: none;
 }
 
-.skills__h2, .projects__h2 {
+.about__h2, .skills__h2, .projects__h2 {
   font-size: 4rem;
   text-align: center;
   font-family: "Patua One", cursive;
@@ -265,6 +265,37 @@ body {
 .skills__para {
   font-size: 1.5rem;
   margin-bottom: 1.2rem;
+}
+
+.about {
+  background-color: var(--main-blue);
+  padding: 1rem 0;
+}
+.about__h2 {
+  color: var(--cream);
+}
+.about__container {
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+}
+.about__img {
+  margin-right: 3rem;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about__para {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  text-indent: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */

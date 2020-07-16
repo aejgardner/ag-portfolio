@@ -1,0 +1,36 @@
+.about {
+    background-color: var(--main-blue);
+    padding: 1rem 0;
+
+    &__h2 {
+        @extend %heading;
+        color: var(--cream)
+    }
+
+    &__container {
+        width: 70%;
+        margin: 1rem auto;
+        display: flex;
+    }
+
+    &__img {
+        margin-right: 3rem;
+        border-radius: 50%;
+        height: 400px;
+        width: 400px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &__para {
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        text-indent: 1rem;
+    }
+}
