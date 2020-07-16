@@ -1,0 +1,48 @@
+.skills {
+    background-color: var(--cream);
+    color: var(--main-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__h2 {
+        @extend %heading;
+        margin-top: 1.3rem;
+        color: var(--main-green);
+    }
+
+    &__container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &__h3 {
+        font-family: 'Patua One', cursive;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        color: var(--main-green);
+    }
+
+    &__col {
+        border-style: solid;
+        border-image: linear-gradient(transparent, var(--main-green), transparent) 1;
+        border-width: 2px;
+        border-bottom: 0;
+        border-top: 0;
+        border-left: 0;
+        padding: 1.5rem 3rem;
+    }
+
+    &__col:last-child {
+        border-right: 0;
+    }
+
+    &__para {
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+}

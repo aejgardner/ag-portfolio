@@ -40,7 +40,7 @@ body {
   list-style: none;
 }
 
-.projects__h2 {
+.skills__h2, .projects__h2 {
   font-size: 4rem;
   text-align: center;
   font-family: "Patua One", cursive;
@@ -223,6 +223,48 @@ body {
 .projects__card__link-orange:hover {
   background-color: var(--main-orange);
   color: white;
+}
+
+.skills {
+  background-color: var(--cream);
+  color: var(--main-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__h2 {
+  margin-top: 1.3rem;
+  color: var(--main-green);
+}
+.skills__container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.skills__h3 {
+  font-family: "Patua One", cursive;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--main-green);
+}
+.skills__col {
+  border-style: solid;
+  border-image: linear-gradient(transparent, var(--main-green), transparent) 1;
+  border-width: 2px;
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  padding: 1.5rem 3rem;
+}
+.skills__col:last-child {
+  border-right: 0;
+}
+.skills__para {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 /*# sourceMappingURL=index.css.map */
