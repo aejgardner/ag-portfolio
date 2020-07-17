@@ -6,9 +6,9 @@ import pingr from '../assets/images/pingr.png'
 
 const Projects = () => {
     return (
-        <section class="projects" id="projects">
-            <h2 class="projects__h2">Projects</h2>
-            <div class="projects__container">
+        <section className="projects" id="projects">
+            <h2 className="projects__h2">Projects</h2>
+            <div className="projects__container">
                 <ProjectsCard
                     id="0"
                     imgSrc={football}
@@ -26,7 +26,7 @@ const Projects = () => {
                 imgSrc={olympics}
                 altText="Picture of Lockdown Olympics app"
                 heading="Lockdown Olympics"
-                technologies="React / Redux / Laravel"
+                technologies="React / Redux / Laravel / AWS"
                 description="Group project - a website for an alternative Olympics that uses a React/Redux front-end and
                 a
                 Laravel API. Users can add competitors and choose which event for them to compete in."
