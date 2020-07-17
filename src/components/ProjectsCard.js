@@ -23,6 +23,17 @@ class ProjectsCard extends Component {
         const { imgSrc, altText, heading, technologies, description, online, appHref, repoHref, id } = this.props;
         const { open } = this.state;
         const caseStudy = casestudies.caseStudies[id];
+
+        const modalStyles = {
+            modal: {
+                backgroundColor: "var(--cream)",
+                borderRadius: "8px"
+            },
+            closeButton: {
+                outline: "none"
+            }
+        }
+
         return (
             <>
                 <article className="projects__card">
@@ -46,14 +57,16 @@ class ProjectsCard extends Component {
                         </button>
                     </div>
                 </article>
-                <Modal open={open} onClose={this.onCloseModal} center>
-                    <h1 className="case-study__heading">{caseStudy.heading}</h1>
-                    <h2>Process</h2>
-                    <p className="case-study__process">{caseStudy.process}</p>
-                    <h2>Challenges</h2>
-                    <p className="case-study__challenges">{caseStudy.challenges}</p>
-                    <h2>Learnings</h2>
-                    <p className="case-study__learnings">{caseStudy.learnings}</p>
+                <Modal styles={modalStyles} open={open} onClose={this.onCloseModal} center>
+                    <div className="case-study__container">
+                        <h1 className="case-study__h1">{caseStudy.heading}</h1>
+                        <h2 className="case-study__h2">Process</h2>
+                        <p className="case-study__para">{caseStudy.process}</p>
+                        <h2 className="case-study__h2">Challenges</h2>
+                        <p className="case-study__para">{caseStudy.challenges}</p>
+                        <h2 className="case-study__h2">Learnings</h2>
+                        <p className="case-study__para">{caseStudy.learnings}</p>
+                    </div>
                 </Modal>
             </>
         );

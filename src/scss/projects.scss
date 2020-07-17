@@ -92,6 +92,8 @@
     &__card__link-orange {
         @extend %a;
         @extend %button;
+        font-family: 'Ubuntu';
+        background-color: transparent;
         border: 2px solid var(--main-orange);
         color: var(--main-orange);
     }
