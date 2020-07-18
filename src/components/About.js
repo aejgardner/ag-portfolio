@@ -7,7 +7,7 @@ const About = () => {
             <h2 class="about__h2">About Me</h2>
             <div class="about__container">
                 <img class="about__img" src={portrait} alt="Portrait of Adam Gardner" />
-                <div class="about__text">
+                <div class="about__paras">
                     <p class="about__para">I am looking for a role where I can develop my skills and learn from others in a
                         collaborative environment. I am open to working across the stack, and particularly enjoy back-end
                     programming using PHP and front-end programming using the React Javascript library.</p>
