@@ -23,7 +23,6 @@ body {
 %a {
     text-decoration: none;
     color: #fff;
-    padding: 0.3rem 1.2rem;
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -50,4 +49,11 @@ body {
 %container {
     width: 80%;
     margin: 0 auto;
+}
+
+  // mobile view
+  @media (max-width: 600px) {
+    %heading {
+        font-size: 3.2rem;
+    }
 }
