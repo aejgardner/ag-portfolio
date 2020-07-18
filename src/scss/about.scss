@@ -1,6 +1,6 @@
 .about {
     background-color: var(--main-blue);
-    padding: 1rem 0;
+    padding: 1rem 0 0.8rem;
 
     &__h2 {
         @extend %heading;
@@ -20,7 +20,7 @@
         width: 400px;
     }
 
-    &__text {
+    &__paras {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -32,5 +32,30 @@
         color: white;
         font-size: 1.5rem;
         text-indent: 1rem;
+    }
+}
+
+  @media (max-width: 1070px) {
+      .about {
+          &__img {
+              display: none;
+          }
+
+          &__para {
+              font-size: 1.2rem;
+          }
+      }
+  }
+
+  // mobile view
+  @media (max-width: 600px) {
+    .about {
+        &__container {
+            width: 80%;
+        }
+
+        &__para {
+            font-size: 1.1rem;
+        }
     }
 }
