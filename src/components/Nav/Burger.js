@@ -6,12 +6,12 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 15px;
+  top: 20px;
   right: 20px;
   z-index: 20;
   cursor: pointer;
   display: none;
-  @media (max-width: 768px) {
+  @media (max-width: 970px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
@@ -37,17 +37,17 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = () => {
-    const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
 
-    return (
-        <>
-            <StyledBurger open={open} onClick={() => setOpen(!open)}>
-                <div />
-                <div />
-                <div />
-            </StyledBurger>
-            <RightNav open={open} setOpen={setOpen} />
-        </>
-    )
+  return (
+    <>
+      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+      <RightNav open={open} setOpen={setOpen} />
+    </>
+  )
 }
 export default Burger
