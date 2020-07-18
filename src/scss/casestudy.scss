@@ -8,7 +8,7 @@
         font-size: 2.8rem;
         text-align: center;
         font-family: 'Ubuntu';
-        margin-bottom: 1rem;
+        margin-bottom: 0.7rem;
     }
 
     &__h2 {
@@ -25,4 +25,17 @@
         font-family: 'Ubuntu';
         margin-bottom: 0.7rem;
     }
+}
+
+  // mobile view
+  @media (max-width: 600px) {
+      .case-study {
+        &__container {
+            width: 90%;
+        }
+
+          &__h1 {
+              font-size: 2.3rem;
+          }
+      }
 }
