@@ -7,8 +7,8 @@
 
     &__h2 {
         @extend %heading;
-        margin-top: 1.3rem;
         color: var(--main-green);
+        margin-top: 1.2rem;
     }
 
     &__container {
@@ -46,3 +46,55 @@
         margin-bottom: 1.2rem;
     }
 }
+
+  @media (max-width: 1200px) {
+      .skills {
+          &__container {
+              width: 90%;
+          }
+      }
+
+  }
+
+  @media (max-width: 1070px) {
+      .skills {
+          &__container {
+              width: 100%;
+          }
+      }
+  }
+
+  @media (max-width: 760px) {
+      .skills {
+          &__container {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1.5rem;
+          }
+
+          &__h2 {
+              margin-bottom: 0.8rem;
+          }
+
+          &__h3 {
+              margin-bottom: 0.7rem;
+          }
+
+          &__col {
+              border: none;
+              padding: 0.3rem 2rem;
+          }
+
+          &__col:last-child {
+            padding-bottom: 0;
+          }
+      }
+  }
+
+  @media (max-width: 600px) {
+      .skills {
+          &__para {
+            font-size: 1.4rem;
+          }
+      }
+  }
