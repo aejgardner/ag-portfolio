@@ -7,8 +7,8 @@
 
     &__h2 {
         @extend %heading;
-        margin: 0 0 1rem;
         color: var(--cream);
+        margin-bottom: 0.9rem;
     }
 
     &__info {
