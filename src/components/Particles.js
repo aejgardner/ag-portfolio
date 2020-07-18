@@ -7,7 +7,7 @@ const ParticlesJs = () => {
             params={{
                 particles: {
                     number: {
-                        value: 28,
+                        value: 31,
                         density: {
                             enable: true,
                             value_area: 800
@@ -26,7 +26,7 @@ const ParticlesJs = () => {
                             nb_sides: 5
                         },
                         image: {
-                            src: "img" / "github.svg",
+                            src: "img/github.svg",
                             width: 100,
                             height: 60
                         }
@@ -60,7 +60,7 @@ const ParticlesJs = () => {
                     },
                     move: {
                         enable: true,
-                        speed: 6,
+                        speed: 7,
                         direction: "none",
                         random: false,
                         straight: false,
@@ -73,7 +73,9 @@ const ParticlesJs = () => {
                         }
                     }
                 },
-            }}
+                retina_detect: false
+            }
+            }
         />
     );
 };
