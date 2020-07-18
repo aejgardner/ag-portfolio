@@ -1,11 +1,11 @@
 .projects {
     background-color: var(--main-blue);
-    padding: 1rem 0 3rem;
+    padding: 1rem 0 2.5rem;
 
     &__h2 {
         @extend %heading;
-        margin: 0 0 2.2rem;
         color: var(--cream);
+        margin-bottom: 1.7rem;
     }
 
     &__container {
@@ -101,5 +101,48 @@
     &__card__link-orange:hover {
         background-color: var(--main-orange);
         color: white;
+    }
+}
+
+@media (max-width: 1250px) {
+    .projects {
+        &__container {
+           width: 90%;
+        }
+    }
+  }
+
+@media (max-width: 1100px) {
+    .projects {
+        &__container {
+           flex-direction: column;
+           align-items: center;
+        }
+
+        &__card {
+            margin-bottom: 2rem;
+            width: 26rem;
+        }
+
+        &__card:last-child {
+            margin-bottom: 0;
+        }
+    }
+  }
+
+  // mobile view
+  @media (max-width: 600px) {
+    .projects {
+        &__h2 {
+            margin-bottom: 1.2rem;
+        }
+
+        &__container {
+            width: 100%;
+        }
+
+        &__card {
+            width: 90%;
+        }
     }
 }
