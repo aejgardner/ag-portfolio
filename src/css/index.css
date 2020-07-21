@@ -112,6 +112,9 @@ body {
   .header__container {
     width: 90%;
   }
+  .header__li {
+    margin-bottom: 1.2rem;
+  }
 }
 .hero {
   background-color: rgba(255, 255, 255, 0.1);
@@ -180,13 +183,13 @@ body {
 @media (max-width: 600px) {
   .hero {
     padding-bottom: 1rem;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
   }
   .hero__container {
     width: 90%;
   }
   .hero__h1 {
-    margin: 1.6rem auto 0.5rem;
+    margin: 2.5rem auto 0.5rem;
     font-size: 2.6rem;
   }
   .hero__para {
