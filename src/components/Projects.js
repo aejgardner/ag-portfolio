@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import football from '../assets/images/team-generator.png'
 import olympics from '../assets/images/lockdownolympics.png'
-import pingr from '../assets/images/pingr.png'
+import pingr from '../assets/images/pingrpic.png'
 
 const Projects = () => {
     return (
