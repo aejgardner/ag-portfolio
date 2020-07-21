@@ -31,6 +31,7 @@ const SocialsUl = styled.ul`
   margin-left: 2rem;
   li {
     padding: 10px 19px;
+    margin-bottom: 1.2rem;
   }
   @media (max-width: 1030px) {
     li {
@@ -41,7 +42,7 @@ const SocialsUl = styled.ul`
     flex-flow: column nowrap;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: 265px;
+    top: 350px;
     right: 0;
     height: 100vh;
     width: 300px;
