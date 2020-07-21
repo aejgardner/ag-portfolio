@@ -7,7 +7,7 @@ const NavUl = styled.ul`
   align-items: center;
   flex-flow: row nowrap;
   li {
-    padding: 18px 9px;
+    padding: 10px 9px;
   }
   @media (max-width: 970px) {
     flex-flow: column nowrap;
@@ -30,7 +30,7 @@ const SocialsUl = styled.ul`
   flex-flow: row nowrap;
   margin-left: 2rem;
   li {
-    padding: 18px 19px;
+    padding: 10px 19px;
   }
   @media (max-width: 1030px) {
     li {
