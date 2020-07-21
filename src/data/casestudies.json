@@ -1,0 +1,22 @@
+{
+    "caseStudies": [
+        {
+            "heading": "Team Generator",
+            "process": "When planning this app, I knew I wanted to use a Laravel API in order to seperate concerns between my front end and business logic. I first set out what my MVP would be, before wire-framing the layout and deciding what should go on each page. I then created the tables, choosing the field names and what would be stored in them. I then listed the necessary API routes and corresponding controller methods.",
+            "challenges": "At first I wanted to store team setting data (shirt colour and team names) in the API. However, doing so caused a 429 error because several HTTP requests were being made at once when the homepage loaded. I realised the settings feature would be a prime use case for Redux, as its data would be rapidly changed by the user and needed to be accessed in other parts of the app. This circumvented the error and made for a more seamless UX.",
+            "learnings": "This app cemented the process of making API requests in a React app using Axios. With no help given on the project, I refined my ability to utilise as many resources as possible, such as websites like Stack Overflow, notes and tutorials. I also learned how to deploy both my front and back end on Heroku."
+        },
+        {
+            "heading": "Lockdown Olympics",
+            "process": "Working in a team of 4, we decided to create an app that provides information for a fictitious 'Lockdown Olympics' event. The app was produced in one week from conception to deployment. Myself and a team mate built the API in a couple of days, creating tables for competitors and sports. I then contributed to the implementation of Redux. I was also tasked with leading the presentation to the rest of the cohort and tutors, explaining the app and its features as concisely as possible.",
+            "challenges": "In order to add the level of functionality we wanted, more routes needed to be created further down the line, one of these being a post request that enabled competitors to be added to the database. There was also the challenge of making sure everyone's roles were clearly defined, so as not have have two people needlessly working on the same thing. This was handled with regular communication and group meetings, where we shared our prgress and discussed what still needed to be done.",
+            "learnings": "Working as a group, this gave us experience resolving merge conflicts in Git and making successful pull requests. The back end was deployed on AWS, a process we all learned and played a part in completing."
+        },
+        {
+            "heading": "PINGR",
+            "process": "Developed during week 11 of the bootcamp, this app began with just React, before implementing Redux. I then connected the app to DevelopMe's ping-pong API, which contained routes for storing games, adding a point for each player, starting a new game and getting a list of played games.",
+            "challenges": "The step from building React components to building a multi feature app with Redux was large, with action dispatches and reducer logic adding another layer of complexity. Another challenge was the langauge feature, enabling the user to switch between English and Esperanto. I accomplished this by storing the translations in a JSON file and detrmining which language to use based on a boolean stored in global state",
+            "learnings": "During this week I learned architecture of Redux, how to dispatch actions and update state in the reducer. I also learned how to incorporate data stored in a JSON file in my components."
+        }
+    ]
+}
