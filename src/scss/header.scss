@@ -68,9 +68,13 @@
 
   // mobile view
   @media (max-width: 600px) {
-    .header{
+    .header {
         &__container {
             width: 90%;
+        }
+
+        &__li {
+            margin-bottom: 1.2rem;
         }
     }
 }
