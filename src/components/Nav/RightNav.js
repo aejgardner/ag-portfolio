@@ -20,6 +20,9 @@ const NavUl = styled.ul`
     width: 300px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
+    li {
+      margin-bottom: 1.2rem;
+    }
   }
 `;
 
@@ -31,7 +34,6 @@ const SocialsUl = styled.ul`
   margin-left: 2rem;
   li {
     padding: 10px 19px;
-    margin-bottom: 1.2rem;
   }
   @media (max-width: 1030px) {
     li {
