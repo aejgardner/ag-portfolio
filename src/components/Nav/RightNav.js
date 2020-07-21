@@ -41,7 +41,7 @@ const SocialsUl = styled.ul`
     flex-flow: column nowrap;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: 265px;
+    top: 350px;
     right: 0;
     height: 100vh;
     width: 300px;
