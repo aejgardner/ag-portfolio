@@ -7,7 +7,10 @@ class ProjectsCard extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { open: false };
+        this.state = {
+            open: false,
+            showLast3Projs: true
+        };
         this.onOpenModal = this.onOpenModal.bind(this);
         this.onCloseModal = this.onCloseModal.bind(this);
     }
@@ -20,7 +23,7 @@ class ProjectsCard extends Component {
     };
 
     render() {
-        const { imgSrc, altText, heading, technologies, description, online, appHref, repoHref, id } = this.props;
+        const { imgSrc, altText, heading, date, technologies, description, online, appHref, repoHref, id } = this.props;
         const { open } = this.state;
         const caseStudy = casestudies.caseStudies[id];
 
@@ -39,6 +42,7 @@ class ProjectsCard extends Component {
                 <article className="projects__card">
                     <img className="projects__card__img" src={imgSrc} alt={altText} />
                     <h2 className="projects__card__h2">{heading}</h2>
+                    <p className="projects__card__date">{date}</p>
                     <h3 className="projects__card__h3">{technologies}</h3>
                     <p className="projects__card__text">{description}</p>
                     <div className="projects__card__links">
@@ -62,8 +66,12 @@ class ProjectsCard extends Component {
                         <h1 className="case-study__h1">{caseStudy.heading}</h1>
                         <h2 className="case-study__h2">Process</h2>
                         <p className="case-study__para">{caseStudy.process}</p>
-                        <h2 className="case-study__h2">Challenges</h2>
-                        <p className="case-study__para">{caseStudy.challenges}</p>
+                        {caseStudy.challenges &&
+                            <>
+                                <h2 className="case-study__h2">Challenges</h2>
+                                <p className="case-study__para">{caseStudy.challenges}</p>
+                            </>
+                        }
                         <h2 className="case-study__h2">Learnings</h2>
                         <p className="case-study__para">{caseStudy.learnings}</p>
                     </div>
