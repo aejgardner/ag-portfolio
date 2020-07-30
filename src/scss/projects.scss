@@ -11,13 +11,13 @@
     &__container {
         width: 80%;
         margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        grid-gap: 2rem;
         text-align: center;
     }
 
     &__card {
-        width: 30%;
         display: flex;
         flex-direction: column;
         background: white;
@@ -37,6 +37,11 @@
     &__card__h2 {
         font-size: 2rem;
         font-family: 'Patua One', cursive;
+        color: var(--main-blue);
+        margin-bottom: 0.4rem;
+    }
+
+    &__card__date {
         color: var(--main-blue);
         margin-bottom: 0.6rem;
     }
@@ -104,31 +109,22 @@
     }
 }
 
-@media (max-width: 1250px) {
-    .projects {
-        &__container {
-           width: 90%;
-        }
-    }
-  }
-
 @media (max-width: 1100px) {
     .projects {
-        &__container {
-           flex-direction: column;
-           align-items: center;
-        }
-
-        &__card {
-            margin-bottom: 2rem;
-            width: 26rem;
-        }
-
         &__card:last-child {
             margin-bottom: 0;
         }
     }
   }
+
+  @media (max-width: 760px) {
+    .projects {
+        &__card {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
 
   // mobile view
   @media (max-width: 600px) {
@@ -139,10 +135,6 @@
 
         &__container {
             width: 100%;
-        }
-
-        &__card {
-            width: 90%;
         }
     }
 }

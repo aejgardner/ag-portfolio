@@ -211,12 +211,12 @@ body {
 .projects__container {
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 2rem;
   text-align: center;
 }
 .projects__card {
-  width: 30%;
   display: flex;
   flex-direction: column;
   background: white;
@@ -234,6 +234,10 @@ body {
 .projects__card__h2 {
   font-size: 2rem;
   font-family: "Patua One", cursive;
+  color: var(--main-blue);
+  margin-bottom: 0.4rem;
+}
+.projects__card__date {
   color: var(--main-blue);
   margin-bottom: 0.6rem;
 }
@@ -284,22 +288,15 @@ body {
   color: white;
 }
 
-@media (max-width: 1250px) {
-  .projects__container {
-    width: 90%;
-  }
-}
 @media (max-width: 1100px) {
-  .projects__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .projects__card {
-    margin-bottom: 2rem;
-    width: 26rem;
-  }
   .projects__card:last-child {
     margin-bottom: 0;
+  }
+}
+@media (max-width: 760px) {
+  .projects__card {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 @media (max-width: 600px) {
@@ -308,9 +305,6 @@ body {
   }
   .projects__container {
     width: 100%;
-  }
-  .projects__card {
-    width: 90%;
   }
 }
 .skills {
