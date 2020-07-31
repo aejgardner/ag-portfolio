@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import cv from '../../assets/cv/adam_gardner_cv.pdf';
 
 const NavUl = styled.ul`
   list-style: none;
@@ -60,7 +61,7 @@ const RightNav = ({ open, setOpen }) => {
         <li className="header__li"><a onClick={() => setOpen(!open)} href="#skills" className="header__nav__link">Skills</a></li>
         <li className="header__li"><a onClick={() => setOpen(!open)} href="#about" className="header__nav__link">About</a></li>
         <li className="header__li"><a onClick={() => setOpen(!open)} href="#contact" className="header__nav__link">Contact</a></li>
-        <li className="header__li"><a onClick={() => setOpen(!open)} href="/" className="header__nav__link">Download CV</a></li>
+        <li className="header__li"><a onClick={() => setOpen(!open)} href={cv} download className="header__nav__link">Download CV</a></li>
       </NavUl>
       <SocialsUl open={open}>
         <ul className="header__socials__ul">
