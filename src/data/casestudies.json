@@ -4,7 +4,7 @@
             "heading": "MeMovie",
             "process": "My aims when building this app were to practice Material UI, learn Immer and its benefits and practice using different hooks such as useReducer.",
             "challenges": "As the cast for each movie is looped through for filter functionality, I had to think carefully about the app's architecture, as the casts are initially stored as strings. A goal for the frontend is to convert it to TypeScript, where strict types may have allowed me to achieve the correct architecture more quickly.",
-            "learnings": "Material UI and how to style Material UI components, Immer and how it improves code readability, and the useReducer hook."
+            "learnings": "Material UI and how to style Material UI components, Immer and how it improves code readability, and hooks such as useReducer and useDispatch."
         },
         {
             "heading": "Team Generator",
@@ -21,8 +21,8 @@
         {
             "heading": "PINGR",
             "process": "Initiallly developed during week 11 of the bootcamp, this app began with just React, before implementing Redux. I then connected the app to DevelopMe's ping-pong API, which contained routes for storing games, adding a point for each player, starting a new game and getting a list of played games.",
-            "challenges": "The step from building React components to building a multi feature app with Redux was challenging, with action dispatches and reducer logic adding another layer of complexity. Another challenge was the langauge feature, enabling the user to switch between English and Esperanto. I accomplished this by storing the translations in a JSON file and detrmining which language to use based on a boolean stored in global state.",
-            "learnings": "During this week I learned architecture of Redux, how to dispatch actions and update state in the reducer. I also learned how to incorporate data stored in a JSON file in my components."
+            "challenges": "The step from building React components to building a multi feature app with Redux was challenging, with action dispatches and reducer logic adding another layer of complexity. Another challenge was the language feature, enabling the user to switch between English and Esperanto. I accomplished this by storing the translations in a JSON file and determining which language to use based on a boolean stored in global state.",
+            "learnings": "During this week I learned the architecture of Redux, how to dispatch actions and update state in the reducer. I also learned how to incorporate data stored in a JSON file into components."
         },
         {
             "heading": "Laravel Vet Project",
