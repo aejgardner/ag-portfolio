@@ -5,6 +5,7 @@ import olympics from '../assets/images/lockdownolympics.png';
 import pingr from '../assets/images/pingrpic.png';
 import memovie from '../assets/images/memovie.png';
 import vet from '../assets/images/laravets.png';
+import photography from '../assets/images/photography.png';
 
 const Projects = () => (
     <section className="projects" id="projects">
@@ -42,7 +43,7 @@ const Projects = () => (
                 heading="Lockdown Olympics"
                 date="June 2020"
                 technologies="React / Redux / Laravel / AWS"
-                description="Group project - a website for an alternative Olympics that uses a React/Redux front-end and
+                description="Group project - a website for a fictitious sports event that uses a React/Redux frontend and
                 a
                 Laravel API. Users can add competitors and choose which event for them to compete in."
                 online={true}
@@ -57,7 +58,7 @@ const Projects = () => (
                 date="June/July 2020"
                 technologies="React / Redux"
                 description="A ping pong scoring app that enables the user to choose player names, serve alternation and
-                winning score. Additional logic included to determine deuce, game history and language
+                winning score. Additional logic included to display game history and language
                 localisation to Esperanto. Built using React and Redux."
                 online={true}
                 appHref="https://aejgardner.github.io/pingr/"
@@ -72,6 +73,18 @@ const Projects = () => (
                 technologies="Laravel / Blade / MySql / Auth / TDD"
                 description="A mock veterinary practice database web application, developed over 2 weeks of the DevelopMe bootcamp. It uses Laravel Blade to display lists of owners and their animals from the database."
                 online={false}
+                repoHref="https://github.com/aejgardner/vet-project"
+            />
+            <ProjectsCard
+                id="5"
+                imgSrc={photography}
+                altText="Picture of photography site"
+                heading="Photography Site"
+                date="April 2020"
+                technologies="HTML / CSS / Atomic Design / OOCSS / Design Interpretation / Responsive Design"
+                description="A fully responsive mock photography site, built during the second week of the DevelopMe_ bootcamp."
+                online={true}
+                appHref="http://adam.developme.space/"
                 repoHref="https://github.com/aejgardner/vet-project"
             />
         </div>
