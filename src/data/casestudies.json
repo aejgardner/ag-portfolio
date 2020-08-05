@@ -3,7 +3,7 @@
         {
             "heading": "MeMovie",
             "process": "My aims when building this app were to practice Material UI, learn Immer and its benefits and practice using different hooks such as useReducer.",
-            "challenges": "As the cast for each movie is looped through for filter functionality, I had to think carefully about the app's architecture, as the casts are initially stored as strings. A goal for the frontend is to convert it to TypeScript, where strict types may have allowed me to achieve the correct architecture more quickly.",
+            "challenges": "As the cast for each movie is looped through for filter functionality, I had to think carefully about the app's architecture, as the casts are initially stored as strings. A goal for this app is to convert the frontend to TypeScript, where strict types may have allowed me to achieve the correct architecture more quickly.",
             "learnings": "Material UI and how to style Material UI components, Immer and how it improves code readability, and hooks such as useReducer and useDispatch."
         },
         {
@@ -15,19 +15,24 @@
         {
             "heading": "Lockdown Olympics",
             "process": "Working in a team of 4, we decided to create an app that provides information for a fictitious 'Lockdown Olympics' event. The app was produced in one week from conception to deployment. Myself and a team mate built the API in a couple of days, creating tables for competitors and sports. I then contributed to the implementation of Redux. I was also tasked with leading the presentation to the rest of the cohort and tutors, explaining the app and its features as concisely as possible.",
-            "challenges": "As we were working in a group of 4, a challenge was to ensure everyone's roles were clearly defined, so as not have have two people needlessly working on the same thing. This was handled with regular communication and group meetings, where we shared our prgress and discussed what still needed to be done.",
+            "challenges": "As we were working in a group of 4, a challenge was to ensure everyone's roles were clearly defined, so as not have have two people needlessly working on the same thing. This was handled with regular communication and group meetings, where we shared our prgress and contributed new ideas.",
             "learnings": "Working collaboratively, this gave us experience resolving merge conflicts in Git and making successful pull requests. The backend was deployed on AWS, a process we all learned and played a part in completing."
         },
         {
             "heading": "PINGR",
             "process": "Initiallly developed during week 11 of the bootcamp, this app began with just React, before implementing Redux. I then connected the app to DevelopMe's ping-pong API, which contained routes for storing games, adding a point for each player, starting a new game and getting a list of played games.",
-            "challenges": "The step from building React components to building a multi feature app with Redux was challenging, with action dispatches and reducer logic adding another layer of complexity. Another challenge was the language feature, enabling the user to switch between English and Esperanto. I accomplished this by storing the translations in a JSON file and determining which language to use based on a boolean stored in global state.",
-            "learnings": "During this week I learned the architecture of Redux, how to dispatch actions and update state in the reducer. I also learned how to incorporate data stored in a JSON file into components."
+            "challenges": "The step from building React components to building a multi feature app with Redux was challenging, with actions and reducers adding another layer of complexity. Another challenge was the language feature, enabling the user to switch between English and Esperanto. I accomplished this by storing the translations in a JSON file and determining which language to use based on a boolean stored in global state.",
+            "learnings": "During this week I learned the architecture of Redux, how to dispatch actions and update state in the reducer. I also learned how to implement data stored in a JSON file into components."
         },
         {
             "heading": "Laravel Vet Project",
             "process": "Learning and applying the key features of Laravel, I built forms that allowed for adding/updating owners and animals based on user role. We also developed an API with Laravel that can be used to query and update the database (based on OAUTH and user role)",
-            "learnings": "The technologies stated on the project card, test driven development, how to construct blade views, how to build an api in Laravel."
+            "learnings": "The technologies stated on the project card, test driven development, how to construct blade views, how to build an API in Laravel."
+        },
+        {
+            "heading": "Photography Site",
+            "process": "For this page I was provided a design in Figma and created the page in HTML and CSS from the ground up during Week 2 of the DevelopeMe_ coding bootcamp. I started with creating a set of re-usable components using atomic design, then built up the full pages to the design specification.",
+            "learnings": "Atomic design, CSS Grid and Flexbox, Figma."
         }
     ]
 }
