@@ -60,8 +60,7 @@ const Projects = () => (
                 description="A ping pong scoring app that enables the user to choose player names, serve alternation and
                 winning score. Additional logic included to display game history and language
                 localisation to Esperanto. Built using React and Redux."
-                online={true}
-                appHref="https://aejgardner.github.io/pingr/"
+                online={false}
                 repoHref="https://github.com/aejgardner/ping-pong"
             />
             <ProjectsCard
