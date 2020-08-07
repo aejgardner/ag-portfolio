@@ -7,7 +7,7 @@ const ParticlesJs = () => {
             params={{
                 particles: {
                     number: {
-                        value: 31,
+                        value: 29,
                         density: {
                             enable: true,
                             value_area: 800
@@ -60,7 +60,7 @@ const ParticlesJs = () => {
                     },
                     move: {
                         enable: true,
-                        speed: 7,
+                        speed: 6,
                         direction: "none",
                         random: false,
                         straight: false,
