@@ -9,7 +9,6 @@ class ProjectsCard extends Component {
 
         this.state = {
             open: false,
-            showLast3Projs: true
         };
         this.onOpenModal = this.onOpenModal.bind(this);
         this.onCloseModal = this.onCloseModal.bind(this);
@@ -64,7 +63,7 @@ class ProjectsCard extends Component {
                 <Modal styles={modalStyles} open={open} onClose={this.onCloseModal} center>
                     <div className="case-study__container">
                         <h1 className="case-study__h1">{caseStudy.heading}</h1>
-                        <h2 className="case-study__h2">Process</h2>
+                        <h2 className="case-study__h2">Goals / Process</h2>
                         <p className="case-study__para">{caseStudy.process}</p>
                         {caseStudy.challenges &&
                             <>

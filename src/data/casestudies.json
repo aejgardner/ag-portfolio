@@ -2,31 +2,31 @@
     "caseStudies": [
         {
             "heading": "MeMovie",
-            "process": "My aims when building this app were to practice Material UI, learn Immer and its benefits and practice using different hooks such as useReducer.",
-            "challenges": "As the cast for each movie is looped through for filter functionality, I had to think carefully about the app's architecture, as the casts are initially stored as strings. A goal for this app is to convert the frontend to TypeScript, where strict types may have allowed me to achieve the correct architecture more quickly.",
+            "process": "My aims when building this app were to practice the Material UI React component library, learn Immer and its benefits and practice using different hooks such as useReducer.",
+            "challenges": "Picking a random movie based on a user's filter requirements posed a challenge, as I had to loop through both objects and arrays in one loop. I used JavsScript's array reduce method to achieve the desired outcome, as it enabled me to use an if statment to check whether the user's filter requirements matched any properties belonging to a movie.",
             "learnings": "Material UI and how to style Material UI components, Immer and how it improves code readability, and hooks such as useReducer and useDispatch."
         },
         {
             "heading": "Team Generator",
-            "process": "When planning this app, I knew I wanted to use a Laravel API in order to seperate concerns between my front end and business logic. I first set out what my MVP would be before wire-framing the layout. I then created the tables, choosing the field names and what would be stored in them. I then listed the necessary API routes and corresponding controller methods.",
+            "process": "When planning this app, I knew I wanted to use a Laravel API in order to seperate concerns between my frontend and business logic. I first set out what my MVP would be before wire-framing the layout. I then created the tables, then designed the necessary API routes and HTTP requests based on the MVP. I then planned the redux actions for both the state and api.",
             "challenges": "At first I wanted to store team setting data (shirt colour and team names) in the API. However, doing so caused a 429 error because several HTTP requests were being made at once when the homepage loaded. I realised the settings feature would be a prime use case for Redux, as its data would be rapidly changed by the user and needed to be accessed in other parts of the app. This circumvented the error and made for a more seamless UX.",
             "learnings": "This app cemented the process of making API requests in a React app using Axios. With no help given on the project, I refined my ability to utilise as many resources as possible, such as websites like Stack Overflow, notes and tutorials. I also learned how to deploy both my front and backend on Heroku."
         },
         {
             "heading": "Lockdown Olympics",
-            "process": "Working in a team of 4, we decided to create an app that provides information for a fictitious 'Lockdown Olympics' event. The app was produced in one week from conception to deployment. Myself and a team mate built the API in a couple of days, creating tables for competitors and sports. I then contributed to the implementation of Redux. I was also tasked with leading the presentation to the rest of the cohort and tutors, explaining the app and its features as concisely as possible.",
+            "process": "Working in a team of 4, we decided to create an app that provides information for a fictitious 'Lockdown Olympics' event. The app was produced in one week from conception to deployment. Myself and a team mate built the API in a couple of days, creating tables for competitors and sports. I then contributed to the implementation of Redux. I was also tasked with leading the presentation to the rest of the cohort and tutors, where I explained the app and its features.",
             "challenges": "As we were working in a group of 4, a challenge was to ensure everyone's roles were clearly defined, so as not have have two people needlessly working on the same thing. This was handled with regular communication and group meetings, where we shared our prgress and contributed new ideas.",
             "learnings": "Working collaboratively, this gave us experience resolving merge conflicts in Git and making successful pull requests. The backend was deployed on AWS, a process we all learned and played a part in completing."
         },
         {
             "heading": "PINGR",
-            "process": "Initiallly developed during week 11 of the bootcamp, this app began with just React, before implementing Redux. I then connected the app to DevelopMe's ping-pong API, which contained routes for storing games, adding a point for each player, starting a new game and getting a list of played games.",
+            "process": "Initiallly developed during week 11 of the bootcamp, this app began with just React, before implementing Redux. I then integrated the app with DevelopMe's ping-pong API, which contained routes for storing games, adding a point for each player, starting a new game and getting a list of played games.",
             "challenges": "The step from building React components to building a multi feature app with Redux was challenging, with actions and reducers adding another layer of complexity. Another challenge was the language feature, enabling the user to switch between English and Esperanto. I accomplished this by storing the translations in a JSON file and determining which language to use based on a boolean stored in global state.",
             "learnings": "During this week I learned the architecture of Redux, how to dispatch actions and update state in the reducer. I also learned how to implement data stored in a JSON file into components."
         },
         {
             "heading": "Laravel Vet Project",
-            "process": "Learning and applying the key features of Laravel, I built forms that allowed for adding/updating owners and animals based on user role. We also developed an API with Laravel that can be used to query and update the database (based on OAUTH and user role)",
+            "process": "Learning and applying the key features of Laravel, I built forms that allowed for adding/updating owners and animals based on user role. We also developed an API with Laravel that can be used to query and update the database (based on OAUTH and user role).",
             "learnings": "The technologies stated on the project card, test driven development, how to construct blade views, how to build an API in Laravel."
         },
         {
