@@ -79,11 +79,11 @@
         @extend %button;
         border: 2px solid var(--main-blue);
         color: var(--main-blue);
-    }
 
-    &__card__link-blue:hover {
-        background-color: var(--main-blue);
-        color: white;
+        &:hover {
+            background-color: var(--main-blue);
+            color: white;
+        }
     }
 
     &__card__link-green {
@@ -91,11 +91,11 @@
         @extend %button;
         border: 2px solid var(--main-green);
         color: var(--main-green);
-    }
 
-    &__card__link-green:hover {
-        background-color: var(--main-green);
-        color: white;
+        &:hover {
+            background-color: var(--main-green);
+            color: white;
+        }
     }
 
     &__card__link-orange {
@@ -105,11 +105,11 @@
         background-color: transparent;
         border: 2px solid var(--main-orange);
         color: var(--main-orange);
-    }
 
-    &__card__link-orange:hover {
-        background-color: var(--main-orange);
-        color: white;
+        &:hover {
+            background-color: var(--main-orange);
+            color: white;
+        }
     }
 }
 

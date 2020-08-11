@@ -26,6 +26,10 @@
         @extend %a;
         border: 2px solid transparent;
         transition: color .1s linear;
+
+        &:hover {
+            color: var(--main-orange)
+        }
     }
 
     &__socials__ul {
@@ -39,14 +43,10 @@
     &__fa {
         font-size: 2.2rem;
         transition: color .1s linear;
-    }
 
-    &__fa:hover {
-        color: var(--main-blue)
-    }
-
-    &__nav__link:hover {
-        color: var(--main-orange)
+        &:hover {
+            color: var(--main-blue)
+        }
     }
 }
 

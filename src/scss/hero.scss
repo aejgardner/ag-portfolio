@@ -35,10 +35,10 @@
         font-size: 4.2rem;
         transition: all 0.1s linear;
         cursor: pointer;
-    }
 
-    &__down:hover {
-        transform: translateY(6px);
+        &:hover {
+            transform: translateY(6px);
+        }
     }
 }
 

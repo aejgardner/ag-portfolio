@@ -25,10 +25,10 @@
         text-decoration: none;
         color: var(--cream);
         transition: color 0.1s linear;
-    }
 
-    &__info > p > a:hover {
-        color: var(--main-orange);
+        &:hover {
+            color: var(--main-orange);
+        }
     }
 
     &__backToTopBtn {
@@ -37,11 +37,11 @@
         border: 2px solid var(--cream);
         color: var(--cream);
         margin-top: 1rem;
-    }
 
-    &__backToTopBtn:hover {
-        border-color: var(--main-orange);
-        color: var(--main-orange);
+        &:hover {
+            border-color: var(--main-orange);
+            color: var(--main-orange);
+        }
     }
 
     &__copyright {
