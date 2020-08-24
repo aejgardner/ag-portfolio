@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="contact__info">
                 <p><a href="https://www.linkedin.com/in/aejgardner/" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/aejgardner</a>
                 </p>
-                <p><a href="https://github.com/aejgardner" target="_blank" rel="noopener noreferrer">https://github.com/aejgardner</a></p>
+                <p><a href="https://github.com/aejgardner" target="_blank" rel="noopener noreferrer">www.github.com/aejgardner</a></p>
                 <p><a href="mailto:adam_gardner@hotmail.co.uk">adam_gardner@hotmail.co.uk</a></p>
             </div>
             <button className="contact__backToTopBtn" onClick={backToTop}>Back to top</button>
