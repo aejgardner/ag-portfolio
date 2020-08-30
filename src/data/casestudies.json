@@ -2,9 +2,9 @@
     "caseStudies": [
         {
             "heading": "MeMovie",
-            "process": "My aims when building this app were to practice the Material UI React component library, learn Immer and its benefits and practice using different hooks such as useReducer.",
+            "process": "My aims when building this app were to practice using the Material UI component library, learn Immer and its benefits and build login and register functionality with JSON web tokens.",
             "challenges": "Picking a random movie based on a user's filter requirements posed a challenge, as I had to loop through both objects and arrays in one loop. I used JavsScript's array reduce method to achieve the desired outcome, as it enabled me to use an if statment to check whether the user's filter requirements matched any properties belonging to a movie.",
-            "learnings": "Material UI and how to style Material UI components, Immer and how it improves code readability, and hooks such as useReducer and useDispatch."
+            "learnings": "Material UI and how to style Material UI components, Immer and how it improves code readability, hooks such as useEffect and useRef, how to authenticate users with JSON web tokens."
         },
         {
             "heading": "Team Generator",

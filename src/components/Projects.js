@@ -3,7 +3,7 @@ import ProjectsCard from './ProjectsCard';
 import football from '../assets/images/team-generator.png';
 import olympics from '../assets/images/lockdownolympics.png';
 import pingr from '../assets/images/pingrpic.png';
-import memovie from '../assets/images/memovie.png';
+import memovie_register from '../assets/images/memovie_register.png';
 import vet from '../assets/images/laravets.png';
 import photography from '../assets/images/photography.png';
 
@@ -13,12 +13,12 @@ const Projects = () => (
         <div className="projects__container">
             <ProjectsCard
                 id="0"
-                imgSrc={memovie}
+                imgSrc={memovie_register}
                 altText="Picture of MeMovie app"
                 heading="MeMovie"
                 date="July 2020"
-                technologies="React / Redux / Immer / React Hooks"
-                description="A React/Redux movie app that allows users to pick a random movie from a table of movies they have entered, with or without filter requirements. Currently working on backend authentication with Laravel."
+                technologies="React / Redux / Immer / JWT / Jest / GSAP"
+                description="A React/Redux app that allows users to pick a random movie from a table of movies they have entered, with or without filter requirements. Backend authentication is handled with Laravel and JSON web tokens."
                 online={true}
                 appHref="https://aejgardner.github.io/memovie/#/"
                 repoHref="https://github.com/aejgardner/memovie"
