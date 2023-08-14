@@ -2,6 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 
 const ParticlesJs = () => {
+    
     return (
         <Particles className="particles"
             params={{
